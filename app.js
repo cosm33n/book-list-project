@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', Store.displayBooks)
 // Event listeners for add book
 
 document.getElementById('book-form').addEventListener('submit', e => {
-//   e.preventDefault()
+  e.preventDefault()
   const title = document.getElementById('title').value,
     author = document.getElementById('author').value,
     isbn = document.getElementById('isbn').value
